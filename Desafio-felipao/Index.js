@@ -1,7 +1,11 @@
-let nomeDoHeroi = "Beatriz"
+let nomeDoHeroi = "Herói"
 let pontosPorExploração = 5000
 let contadorDeExploração = 13
 let xp = contadorDeExploração * pontosPorExploração
+
+for(let contadorDeExploração = 1; + contadorDeExploração < 14; contadorDeExploração++){ 
+    console.log("O Herói acabou de realizar uma exploração " + contadorDeExploração + " e ganhou mais " + pontosPorExploração + " pontos de experiência" )
+}
 
 if (xp < 1000) {
     nivel = "Ferro";
